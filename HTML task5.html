@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task5</title>
+    <style>
+            body {
+                margin:120px;
+            }
+            table,tr,td {
+                border-collapse: collapse;
+                padding: 2px;
+            }
+            .name {
+                padding-right: 40px;
+            }
+            .radio {
+                display:inline-block
+            }
+            .declare {
+                display: inline-block;
+                margin-top: 0;
+                margin-bottom: 0;
+                margin-left: 0;
+                margin-right: 0;
+            }
+            .register {
+                text-align: center;
+            }
+    </style>
+</head>
+<body>
+    <table border>
+        <tbody>
+           <tr>
+            <td class="name">Full Name:</td>
+              <td>
+                 <input class="" type="text">
+              </td>
+           </tr>
+
+           <tr>
+            <td class="name">Last Name:</td>
+            <td>
+               <input class="" type="text">
+            </td>
+           </tr>
+
+           <tr>
+            <td class="name">Email</td>
+            <td>
+               <input class="" type="text">
+            </td>
+           </tr>
+
+           <tr>
+            <td class="name">Password</td>
+            <td>
+               <input class="" type="password">
+            </td>
+           </tr>
+
+           <tr>
+            <td class="name">Re-enter Password</td>
+            <td>
+               <input class="" type="password">
+            </td>
+           </tr>
+
+           <tr>
+                <td class="name">Gender</td>
+                <td>
+                    <input class="radio" type="radio" name="gender">
+                    <label for="gender">Male</label>
+                    <br>
+                    <hr>
+                    <input class="radio" type="radio" name="gender">
+                    <label for="gender">Female</label>
+                </td>
+           </tr>
+
+           <tr>
+            <td class="name">Age:</td>
+            <td>
+               <input class="" type="text">
+            </td> 
+           </tr>
+
+
+           <tr>
+            <td class="name">Phone Number</td>
+            <td>
+               <input class="" type="text">
+            </td>
+           </tr>
+
+           <tr>
+            <td class="name">Address:</td>
+            <td>
+               <input class="" type="text">
+            </td>
+           </tr>
+
+           <tr>
+            <td class="name">State</td>
+            <td>
+               <input class="" type="text">
+            </td>
+           </tr>
+               
+           <tr>
+            <td class="name">country</td>
+            <td>
+               <select name="country" id="country">
+                    <option value="India">India</option>
+                    <option value="China">China</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="UK">UK</option>
+               </select>
+            </td>
+           </tr>
+
+           <tr>
+            <td class="name">Languages Known</td>
+            <td>
+                 <input type="checkbox" name="lang">
+                 <label for="lang">English</label>
+                 <input type="checkbox" name="lang">
+                 <label for="lang">Kannada</label>
+                 <input type="checkbox" name="lang">
+                 <label for="lang">Hindi</label>
+                 <input type="checkbox" name="lang">
+                 <label for="lang">Telugu</label>
+            </td>
+           </tr>
+
+           <tr>
+                  <td align="center" colspan="2">
+                        <input class="radio" type="radio">
+                        <p class="declare">
+                            "Hereby I decide all the given details are true"
+                        </p>
+                  </td>
+            </tr>
+
+            <tr>
+                <td align="right" colspan="2">
+                    <p class="declare">
+                        Log in to
+                        <a href="https://ethnus.com">Ethnus</a>
+                        Website
+                    </p>
+              </td>
+            </tr>
+
+
+        </tbody>
+    </table>
+    <div class="register">
+        <button> Register</button>
+    </div>
+</body>
+</html>
